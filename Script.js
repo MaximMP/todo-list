@@ -12,4 +12,3 @@ const tasks = [
     completed: false
   }
 ];
-console.log("hello");
