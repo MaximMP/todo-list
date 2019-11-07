@@ -1,3 +1,29 @@
 body {
   background: lime;
 }
+.container {
+  text-align: center;
+  border: 7px solid blue;
+  width: 310px;
+  margin: auto;
+  padding: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-bottom: 17px;
+  border: none;
+  background: transparent;
+  border-bottom: 3px solid blue;
+}
+.btn {
+  border: 3px solid blue;
+  background: transparent;
+  border-radius: 13px;
+}
+.btn:hover {
+  background: red;
+  color: blue;
+}
